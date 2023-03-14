@@ -4093,7 +4093,7 @@ input[type="button"].btn-block {
 }
 
 .custom-file-input {
-    position: relative;
+    position: relative;  
     z-index: 2;
     width: 100%;
     height: calc(1.5em + 0.75rem + 2px);
@@ -4111,9 +4111,7 @@ input[type="button"].btn-block {
     background-color: #e9ecef;
 }
 
-.custom-file-input:lang(en)~.custom-file-label::after {
-    content: "Browse";
-}
+
 
 .custom-file-input~.custom-file-label[data-browse]::after {
     content: attr(data-browse);
